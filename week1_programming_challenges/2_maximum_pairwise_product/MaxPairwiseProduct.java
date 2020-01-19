@@ -9,7 +9,7 @@ public class MaxPairwiseProduct {
         for (int first = 0; first < n; ++first) {
             for (int second = first + 1; second < n; ++second) {
                 max_product = max(max_product,
-                    numbers[first] * numbers[second])
+                    numbers[first] * numbers[second]);
             }
         }
 
